@@ -10,7 +10,7 @@ const AboutSection = () => {
             Who We <span className="text-yellow-500">Are</span>
           </h2>
           <p className="text-construction-600 text-lg">
-            For over 25 years, Edifice Web Works has been redefining construction excellence with innovation, precision, and unmatched expertise.
+            For over 25 years, Cube 99 has been redefining construction excellence with innovation, precision, and unmatched expertise.
           </p>
         </div>
 

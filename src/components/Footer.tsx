@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-display font-bold mb-6">
-              EDIFICE<span className="text-yellow-500">WEB</span>WORKS
+              CUBE<span className="text-yellow-500">99</span>
             </h3>
             <p className="text-construction-300 mb-6">
               Building excellence through innovation, quality craftsmanship, and dedicated service since 1998.
@@ -113,7 +113,7 @@ const Footer = () => {
               </li>
               <li className="text-construction-300">
                 <span className="block font-medium text-white">Email:</span>
-                info@edificewebworks.com
+                info@cube99.com
               </li>
               <li className="text-construction-300">
                 <span className="block font-medium text-white">Hours:</span>
@@ -129,7 +129,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-construction-400 mb-4 md:mb-0">
-              &copy; {currentYear} Edifice Web Works. All rights reserved.
+              &copy; {currentYear} Cube 99. All rights reserved.
             </div>
             <div className="flex space-x-6">
               <a href="#" className="text-construction-400 hover:text-yellow-500 text-sm">
