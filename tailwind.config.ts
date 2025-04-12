@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,34 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				construction: {
+					DEFAULT: '#1A1F2C', // dark blue
+					50: '#F6F7F9',
+					100: '#E9ECF1',
+					200: '#C8CDD9',
+					300: '#A7AFC0',
+					400: '#8590A8',
+					500: '#63728F',
+					600: '#4F5A72',
+					700: '#3B4354',
+					800: '#272C37',
+					900: '#131619',
+					foreground: '#FFFFFF'
+				},
+				yellow: {
+					DEFAULT: '#FFBB00',
+					50: '#FFF3CC',
+					100: '#FFECB3',
+					200: '#FFE080',
+					300: '#FFD44D',
+					400: '#FFC71A',
+					500: '#FFBB00',
+					600: '#CC9500',
+					700: '#997000',
+					800: '#664B00',
+					900: '#332500',
+					foreground: '#1A1F2C'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -89,6 +118,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				display: ['Montserrat', 'sans-serif']
 			}
 		}
 	},
